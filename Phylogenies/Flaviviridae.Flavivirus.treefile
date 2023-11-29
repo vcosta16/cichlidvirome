@@ -1,0 +1,256 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=154;
+	taxlabels
+	'AAA48509.1_Flavivirus_sp.'
+	'AAQ91607.1_Kyasanur_Forest_disease_virus'
+	'AAV34154.1_Iguape_virus'
+	'AAX82481.1_Alfuy_virus'
+	'ABE73208.1_Karshi_virus'
+	'ABI54483.1_Potiskum_virus'
+	'ABW76844.2_Koutango_virus'
+	'ACD13417.1_Dengue_virus_3'
+	'ACN73462.1_Nounane_virus'
+	'ACR56717.1_Lammi_virus'
+	'AGJ84083.1_Ilheus_virus'
+	'AGW51756.1_uncultured_virus'
+	'AIJ19432.1_Stratford_virus'
+	'AIJ19433.1_Bainyik_virus'
+	'AIJ19434.1_Torres_virus'
+	'AIU94739.1_Aroa_virus'
+	'AIU94742.1_Naranjal_virus'
+	'ALC76577.1_Palm_Creek_virus'
+	'ALP82436.1_Tyuleniy_virus'
+	'AOR51362.1_Anopheles_flavivirus_like_1'
+	'AOR81460.1_Cuacua_virus'
+	'AOZ57821.1_Spondweni_virus'
+	'AQS26805.1_Zika_virus'
+	'ASA45769.1_Calbertado_virus'
+	'ASC48301.1_Wesselsbron_virus'
+	'ASD50161.1_Haslams_Creek_virus'
+	'ASD50162.1_Dairy_Swamp_virus'
+	'ATL63282.1_La_Tina_virus'
+	'ATL63283.1_Marisma_mosquito_virus'
+	'ATN29917.1_Long_Pine_Key_virus'
+	'ATY35190.1_Cyclopterus_lumpus_virus'
+	'AVM87250.1_Wenzhou_shark_flavivirus'
+	'AVN89846.1_Yellow_fever_virus'
+	'AWX63831.1_Culex_flavivirus'
+	'AYU58608.1_Eastern_red_scorpionfish_flavivirus'
+	'AZB73874.1_Sabethes_flavivirus'
+	'BAA88995.1_Sitiawan_virus'
+	'BBJ32518.1_Flavivirus_sp.'
+	'BBQ04788.1_Mosquito_flavivirus'
+	'BCD89698.1_Tabanus_rufidens_flavivirus'
+	'BCI56825.1_Ochlerotatus_scapularis_flavivirus'
+	'BCI56826.1_Mansonia_flavivirus'
+	'BCL56285.1_Mpulungu_flavivirus'
+	Bathybates_fasciatus_SRR9688895
+	'CCO25539.1_Ochlerotatus_caspius_flavivirus'
+	Chowder_bay_tunicate_associated_flavivirus
+	'Cigar_comb_jelly_flavivirus_NS5_GHXY01284671.1'
+	Cyprichromis_microlepidotus_SRR9688044
+	Cyprichromis_microlepidotus_SRR9688165
+	Cyprichromis_microlepidotus_SRR9688189
+	Cyprichromis_microlepidotus_SRR9688201
+	DRR171178_Sea_firefly_flavivirus
+	Eunicea_flexuosa_flavi_like_virus_SRR12876665
+	Harrimaniidae_sp_flavi_like_virus_SRR1695462
+	Lepisma_flavi_like_virus
+	'NP_044677.1_Louping_ill_virus'
+	'NP_051124.1_Murray_Valley_encephalitis_virus'
+	'NP_056776.2_Dengue_virus_2'
+	'NP_059433.1_Dengue_virus_1'
+	'NP_059434.1_Japanese_encephalitis_virus'
+	'NP_073286.1_Dengue_virus_4'
+	'NP_619758.1_Modoc_virus'
+	'NP_620044.1_Rio_Bravo_virus'
+	'NP_620045.1_Apoi_virus'
+	'NP_620099.1_Powassan_virus'
+	'NP_620108.1_Langat_virus'
+	'NP_658908.1_Tamana_bat_virus'
+	'NP_689391.1_Montana_myotis_leukoencephalitis_virus'
+	NP_775511_Tick_borne_encephalitis_virus
+	'NP_872627.1_Yokose_virus'
+	'NP_878909.1_Omsk_hemorrhagic_fever_virus'
+	'NP_891560.1_Kamiti_River_virus'
+	Paracyprichromis_brieni_SRR9686443
+	Paracyprichromis_brieni_SRR9686448
+	Photeros_sp_flavi_like_virus_SRR10811635
+	'QAA79713.1_West_Nile_virus'
+	'QCH00711.1_Southern_pygmy_squid_flavivirus'
+	'QCH00712.1_Gammarus_chevreuxi_flavivirus'
+	'QCH00713.1_Crangon_crangon_flavivirus'
+	'QCH00714.1_Firefly_squid_flavivirus'
+	'QCH00716.1_Gammarus_pulex_flavivirus'
+	'QEA08546.1_Guapiacu_virus'
+	'QID19998.1_Hidden_Valley_virus'
+	'QID21514.1_Usutu_virus'
+	'QIS62329.1_Falli_virus'
+	'QJU12405.1_Salmon_flavivirus'
+	'QOQ37358_Flavivirus_sp._Sea_Cucumber'
+	'QQM16329.1_Waxsystermes_virus'
+	'QSH48282.1_Chinese_soft_shelled_turtle_flavivirus'
+	'QTA74161.1_Kama_virus'
+	'QTG11043.1_Batu_Kawa_virus'
+	'QUF61513.1_Western_carp_gudgeon_flavivirus'
+	'QVN47788.1_Saint_Louis_encephalitis_virus'
+	'QYF49572.1_Hubei_sediment_flavi_like_virus_2'
+	'QYF49586.1_Jiangsu_sediment_flavi_like_virus_3'
+	SXWX1916_4_Shanxi_sandfly_flavivirus_strain_SXWX1916_4
+	'UBB38826.1_Aedes_notoscriptus_flavivirus'
+	'UDL09406.1_Saumarez_Reef_virus'
+	'UHK03172.1_Hangzhou_flavivirus_3'
+	'VVA41908.1_Cell_fusing_agent_virus'
+	Wu_Antipaluria_urichi_flavi_like_virus
+	'YP_001040004.1_Aroa_virus'
+	'YP_002790882.1_Kedougou_virus'
+	'YP_002790883.1_Bagaza_virus'
+	'YP_005352889.1_Donggang_virus'
+	YP_005454257_Chaoyang_virus
+	'YP_006846328.2_Ntaya_virus'
+	'YP_009026410.1_Nhumirim_virus'
+	'YP_009041466.1_Nienokoue_virus'
+	'YP_009126871.1_Jutiapa_virus'
+	'YP_009126874.1_Cacipacore_virus'
+	'YP_009126875.1_Sokoluk_virus'
+	YP_009163757_Spanish_goat_encephalitis_virus
+	YP_009164029_Parramatta_River_virus
+	'YP_009164031.1_Mercadeo_virus'
+	'YP_009169331.1_Paraiso_Escondido_virus'
+	'YP_009222007.1_Banzi_virus'
+	'YP_009256192.1_Edge_Hill_virus'
+	'YP_009256193.1_Culiseta_flavivirus'
+	YP_009259331_Aedes_flavivirus
+	YP_009259365_Quang_Binh_virus
+	'YP_009259488.1_Nakiwogo_virus'
+	YP_009268580_Ilomantsi_virus
+	YP_009268628_Hanko_virus
+	'YP_009328360.1_New_Mapoon_virus'
+	YP_009333131_Kokobera_virus
+	'YP_009344961.1_Bouboui_virus'
+	'YP_009344967.1_Saboya_virus'
+	'YP_009344968.1_Uganda_S_virus'
+	'YP_009344969.1_Jugra_virus'
+	'YP_009345031.1_Meaban_virus'
+	'YP_009345034.1_Gadgets_Gully_virus'
+	'YP_009345035.1_Kadam_virus'
+	'YP_009345036.1_Bamaga_virus'
+	'YP_009350101.1_Phnom_Penh_bat_virus'
+	'YP_009350102.1_Xishuangbanna_aedes_flavivirus'
+	'YP_009350103.1_Yaounde_virus'
+	'YP_009351820.1_T_Ho_virus'
+	'YP_009351861.1_Menghai_flavivirus'
+	'YP_009388577.1_Karumba_virus'
+	'YP_009389296.1_Mac_Peak_virus'
+	'YP_009552278.1_Nanay_virus'
+	'YP_009553341.1_Rocio_virus'
+	'YP_009553376.1_Kampung_Karu_virus'
+	YP_009664833_Bukalasa_bat_virus
+	YP_009664834_Carey_Island_virus
+	YP_009664835_Cowbone_Ridge_virus
+	YP_009664836_Dakar_bat_virus
+	YP_009664837_Israel_turkey_meningoencephalomyelitis_virus
+	YP_009664839_Sal_Vieja_virus
+	YP_009664840_San_Perlita_virus
+	'YP_950477.1_Entebbe_bat_virus'
+	'YP_950478.1_Sepik_virus'
+	'sp_Q91B85.1_POLG_ALKV_RecName'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('QOQ37358_Flavivirus_sp._Sea_Cucumber':1.64686,((Wu_Antipaluria_urichi_flavi_like_virus:1.301339,((('QQM16329.1_Waxsystermes_virus':0.595693,'AVM87250.1_Wenzhou_shark_flavivirus':0.701648)[&label=91]:0.156015,'AYU58608.1_Eastern_red_scorpionfish_flavivirus':0.769754)[&label=93]:0.095552,Lepisma_flavi_like_virus:0.519706)[&label=100]:0.221888)[&label=100]:0.990179,((('QCH00714.1_Firefly_squid_flavivirus':1.10307,'QCH00711.1_Southern_pygmy_squid_flavivirus':0.809816)[&label=100]:1.757639,('NP_658908.1_Tamana_bat_virus':1.358115,('QUF61513.1_Western_carp_gudgeon_flavivirus':1.177807,'ATY35190.1_Cyclopterus_lumpus_virus':1.285288)[&label=95]:0.194517)[&label=98]:0.237517)[&label=97]:0.133489,((((('QCH00716.1_Gammarus_pulex_flavivirus':1.122539,('QCH00712.1_Gammarus_chevreuxi_flavivirus':0.702403,('QCH00713.1_Crangon_crangon_flavivirus':0.641052,(DRR171178_Sea_firefly_flavivirus:0.388026,Photeros_sp_flavi_like_virus_SRR10811635:0.312464)[&label=100]:0.324493)[&label=99]:0.089892)[&label=100]:0.119192)[&label=60]:0.152443,(((((((('AVN89846.1_Yellow_fever_virus':0.293413,('NP_872627.1_Yokose_virus':0.168828,('YP_950477.1_Entebbe_bat_virus':0.093362,'YP_009126875.1_Sokoluk_virus':0.119218)[&label=99]:0.070428)[&label=100]:0.258364)[&label=87]:0.032445,('ASC48301.1_Wesselsbron_virus':0.060763,'YP_950478.1_Sepik_virus':0.115179)[&label=100]:0.147976)[&label=86]:0.03247,('YP_009169331.1_Paraiso_Escondido_virus':0.342452,(('YP_009344961.1_Bouboui_virus':0.193607,(('YP_009344969.1_Jugra_virus':0.072272,('ABI54483.1_Potiskum_virus':2.0E-6,'YP_009344967.1_Saboya_virus':0.001785)[&label=100]:0.051215)[&label=100]:0.066296,('YP_009222007.1_Banzi_virus':0.082092,'YP_009344968.1_Uganda_S_virus':0.081403)[&label=100]:0.024008)[&label=100]:0.050696)[&label=100]:0.063307,('YP_009256192.1_Edge_Hill_virus':0.174619,'YP_009345036.1_Bamaga_virus':0.196657)[&label=100]:0.095549)[&label=100]:0.092934)[&label=93]:0.031232)[&label=100]:0.068845,(((((('AQS26805.1_Zika_virus':0.23616,'AOZ57821.1_Spondweni_virus':0.137886)[&label=100]:0.113799,((('YP_009126874.1_Cacipacore_virus':0.160357,((('NP_059434.1_Japanese_encephalitis_virus':0.081474,'QID21514.1_Usutu_virus':0.086465)[&label=99]:0.036306,('AAX82481.1_Alfuy_virus':0.069175,'NP_051124.1_Murray_Valley_encephalitis_virus':0.080077)[&label=99]:0.02618)[&label=98]:0.01431,('YP_009350103.1_Yaounde_virus':0.053066,('ABW76844.2_Koutango_virus':0.074309,'QAA79713.1_West_Nile_virus':0.033903)[&label=100]:0.05053)[&label=99]:0.018268)[&label=100]:0.057076)[&label=100]:0.072078,'QVN47788.1_Saint_Louis_encephalitis_virus':0.140147)[&label=94]:0.043393,(('BAA88995.1_Sitiawan_virus':0.088176,('YP_006846328.2_Ntaya_virus':0.076532,('YP_002790883.1_Bagaza_virus':3.0E-6,YP_009664837_Israel_turkey_meningoencephalomyelitis_virus:0.026768)[&label=100]:0.027861)[&label=100]:0.049316)[&label=100]:0.145078,(('YP_009351820.1_T_Ho_virus':0.1506,'YP_009553341.1_Rocio_virus':0.144496)[&label=97]:0.032833,'AGJ84083.1_Ilheus_virus':0.119302)[&label=99]:0.027017)[&label=99]:0.033525)[&label=99]:0.040697)[&label=64]:0.035722,(('YP_009328360.1_New_Mapoon_virus':0.207601,(('AIJ19432.1_Stratford_virus':0.08373,'AIJ19434.1_Torres_virus':0.056777)[&label=100]:0.033315,('AIJ19433.1_Bainyik_virus':0.026854,YP_009333131_Kokobera_virus:0.060413)[&label=100]:0.037487)[&label=100]:0.108411)[&label=100]:0.145697,(('AAV34154.1_Iguape_virus':0.040988,'AIU94739.1_Aroa_virus':0.056535)[&label=100]:0.169446,('AIU94742.1_Naranjal_virus':0.065697,'YP_001040004.1_Aroa_virus':0.059087)[&label=100]:0.136357)[&label=100]:0.075343)[&label=85]:0.039854)[&label=89]:0.047829,(('NP_073286.1_Dengue_virus_4':0.180969,('NP_056776.2_Dengue_virus_2':0.133625,('ACD13417.1_Dengue_virus_3':0.118626,'NP_059433.1_Dengue_virus_1':0.131921)[&label=95]:0.033354)[&label=99]:0.054293)[&label=100]:0.157852,'YP_002790882.1_Kedougou_virus':0.291358)[&label=89]:0.04896)[&label=98]:0.045499,(('YP_009552278.1_Nanay_virus':0.270991,('QSH48282.1_Chinese_soft_shelled_turtle_flavivirus':0.160621,'YP_009553376.1_Kampung_Karu_virus':0.124316)[&label=100]:0.158791)[&label=77]:0.054302,('ACN73462.1_Nounane_virus':0.325602,('QTG11043.1_Batu_Kawa_virus':0.22513,'YP_009026410.1_Nhumirim_virus':0.221023)[&label=100]:0.061986)[&label=73]:0.040852)[&label=99]:0.086103)[&label=94]:0.041015,(('QID19998.1_Hidden_Valley_virus':0.202755,('ACR56717.1_Lammi_virus':0.050952,YP_005454257_Chaoyang_virus:0.03143)[&label=100]:0.15536)[&label=97]:0.043133,((('ATN29917.1_Long_Pine_Key_virus':0.043957,'QEA08546.1_Guapiacu_virus':0.055559)[&label=100]:0.142436,('ATL63283.1_Marisma_mosquito_virus':0.055246,'YP_005352889.1_Donggang_virus':0.063068)[&label=100]:0.078544)[&label=84]:0.034388,YP_009268580_Ilomantsi_virus:0.183029)[&label=92]:0.041799)[&label=100]:0.179117)[&label=99]:0.059876)[&label=100]:0.078698,(('ALP82436.1_Tyuleniy_virus':0.119808,('UDL09406.1_Saumarez_Reef_virus':0.116172,('QTA74161.1_Kama_virus':0.097802,'YP_009345031.1_Meaban_virus':0.081626)[&label=97]:0.042727)[&label=72]:0.026098)[&label=100]:0.0989,('YP_009345035.1_Kadam_virus':0.186248,('ABE73208.1_Karshi_virus':0.120738,('YP_009345034.1_Gadgets_Gully_virus':0.141459,('NP_620099.1_Powassan_virus':0.118873,(('AAQ91607.1_Kyasanur_Forest_disease_virus':0.008463,'sp_Q91B85.1_POLG_ALKV_RecName':0.008917)[&label=100]:0.0848,('NP_620108.1_Langat_virus':0.071782,('NP_878909.1_Omsk_hemorrhagic_fever_virus':0.044835,(('NP_044677.1_Louping_ill_virus':0.041316,YP_009163757_Spanish_goat_encephalitis_virus:0.00923)[&label=100]:0.013204,NP_775511_Tick_borne_encephalitis_virus:0.013627)[&label=99]:0.024969)[&label=100]:0.040559)[&label=100]:0.030274)[&label=94]:0.012912)[&label=98]:0.029734)[&label=43]:0.011653)[&label=100]:0.086058)[&label=100]:0.071223)[&label=100]:0.170948)[&label=95]:0.060452,'BCL56285.1_Mpulungu_flavivirus':0.470091)[&label=90]:0.08728,(((('YP_009126871.1_Jutiapa_virus':0.187894,YP_009664840_San_Perlita_virus:0.150228)[&label=100]:0.127311,((YP_009664839_Sal_Vieja_virus:0.159065,YP_009664835_Cowbone_Ridge_virus:0.130572)[&label=100]:0.02831,'NP_619758.1_Modoc_virus':0.130712)[&label=100]:0.092822)[&label=100]:0.067188,((('YP_009350101.1_Phnom_Penh_bat_virus':0.101322,YP_009664834_Carey_Island_virus:0.112562)[&label=100]:0.135373,'NP_620044.1_Rio_Bravo_virus':0.155842)[&label=91]:0.035904,('NP_689391.1_Montana_myotis_leukoencephalitis_virus':0.221947,(YP_009664833_Bukalasa_bat_virus:0.184569,YP_009664836_Dakar_bat_virus:0.124089)[&label=84]:0.049388)[&label=78]:0.015931)[&label=91]:0.059157)[&label=100]:0.082979,'NP_620045.1_Apoi_virus':0.258296)[&label=100]:0.210191)[&label=100]:0.240902,((('AGW51756.1_uncultured_virus':0.013473,'UHK03172.1_Hangzhou_flavivirus_3':0.050663)[&label=100]:0.675491,SXWX1916_4_Shanxi_sandfly_flavivirus_strain_SXWX1916_4:0.566334)[&label=99]:0.127284,('BCD89698.1_Tabanus_rufidens_flavivirus':0.436352,(((((('YP_009164031.1_Mercadeo_virus':0.109603,'YP_009256193.1_Culiseta_flavivirus':0.102214)[&label=100]:0.160574,'ASA45769.1_Calbertado_virus':0.208081)[&label=95]:0.052981,'AZB73874.1_Sabethes_flavivirus':0.160899)[&label=100]:0.174293,'BCI56826.1_Mansonia_flavivirus':0.371045)[&label=47]:0.027492,((((('ATL63282.1_La_Tina_virus':0.008508,YP_009259331_Aedes_flavivirus:0.005373)[&label=100]:0.149779,'NP_891560.1_Kamiti_River_virus':0.08602)[&label=98]:0.04246,('AAA48509.1_Flavivirus_sp.':0.017077,'VVA41908.1_Cell_fusing_agent_virus':0.01212)[&label=100]:0.074551)[&label=100]:0.279622,('QIS62329.1_Falli_virus':0.150276,('BCI56825.1_Ochlerotatus_scapularis_flavivirus':0.162149,('YP_009350102.1_Xishuangbanna_aedes_flavivirus':0.069075,'YP_009351861.1_Menghai_flavivirus':0.105257)[&label=100]:0.070827)[&label=100]:0.052417)[&label=100]:0.106411)[&label=99]:0.082973,('UBB38826.1_Aedes_notoscriptus_flavivirus':0.097066,(YP_009164029_Parramatta_River_virus:0.109742,('CCO25539.1_Ochlerotatus_caspius_flavivirus':0.021774,YP_009268628_Hanko_virus:8.77E-4)[&label=100]:0.096002)[&label=79]:0.037648)[&label=100]:0.219109)[&label=86]:0.069049)[&label=56]:0.039997,(((('AWX63831.1_Culex_flavivirus':0.088254,('BBQ04788.1_Mosquito_flavivirus':0.051378,YP_009259365_Quang_Binh_virus:0.033476)[&label=100]:0.072881)[&label=100]:0.149916,('ALC76577.1_Palm_Creek_virus':0.119326,('AOR81460.1_Cuacua_virus':0.047952,'YP_009259488.1_Nakiwogo_virus':0.023605)[&label=100]:0.082185)[&label=100]:0.101494)[&label=100]:0.03389,'YP_009041466.1_Nienokoue_virus':0.197874)[&label=100]:0.123253,('BBJ32518.1_Flavivirus_sp.':0.114997,(((('YP_009389296.1_Mac_Peak_virus':0.085848,'AOR51362.1_Anopheles_flavivirus_like_1':0.056153)[&label=61]:0.017169,'ASD50162.1_Dairy_Swamp_virus':0.051126)[&label=57]:0.008931,'ASD50161.1_Haslams_Creek_virus':0.044147)[&label=66]:0.026572,'YP_009388577.1_Karumba_virus':0.035422)[&label=99]:0.138027)[&label=100]:0.184858)[&label=83]:0.063489)[&label=100]:0.182089)[&label=100]:0.100116)[&label=100]:0.223907)[&label=96]:0.097735)[&label=49]:0.066495,(Harrimaniidae_sp_flavi_like_virus_SRR1695462:0.539346,Eunicea_flexuosa_flavi_like_virus_SRR12876665:0.49193)[&label=100]:0.465466)[&label=100]:0.727834,(('Cigar_comb_jelly_flavivirus_NS5_GHXY01284671.1':0.839656,((Paracyprichromis_brieni_SRR9686443:0.003617,(((Bathybates_fasciatus_SRR9688895:0.011707,Cyprichromis_microlepidotus_SRR9688201:0.001654)[&label=30]:2.0E-6,Cyprichromis_microlepidotus_SRR9688044:3.0E-6)[&label=44]:0.003317,(Paracyprichromis_brieni_SRR9686448:0.00665,Cyprichromis_microlepidotus_SRR9688165:0.001778)[&label=57]:3.0E-6)[&label=64]:0.001652)[&label=63]:2.0E-6,Cyprichromis_microlepidotus_SRR9688189:3.0E-6)[&label=98]:0.476192)[&label=96]:0.360928,'QJU12405.1_Salmon_flavivirus':0.38981)[&label=98]:0.551818)[&label=98]:0.392418,('QYF49572.1_Hubei_sediment_flavi_like_virus_2':0.311409,'QYF49586.1_Jiangsu_sediment_flavi_like_virus_3':0.320005)[&label=100]:1.22801)[&label=98]:0.319442)[&label=100]:0.405338)[&label=99]:0.568599,Chowder_bay_tunicate_associated_flavivirus:2.301935);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=683;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=14.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
